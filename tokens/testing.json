@@ -1,0 +1,25 @@
+{
+    "base": {
+        "shadow": {
+          "default": {
+            "value": "rgba(9,30,66,0.66)",
+            "type": "color"
+          }
+        }
+      },
+    "global": {
+      "testing": {
+        "small": {
+          "value": {
+            "x": "0",
+            "y": "8",
+            "blur": "8",
+            "spread": "0",
+            "color": "{base.shadow.default}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow"
+        }
+      }
+    }
+  }
